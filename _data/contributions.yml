@@ -1,0 +1,23 @@
+- title: Scrapy
+  link: "https://github.com/scrapy/scrapy/commits?author=stummjr"
+  details: "A fast and efficient web crawling framework."
+
+- title: VOC
+  link: "https://github.com/pybee/voc/commits?author=stummjr"
+  details: "A transpiler to convert Python into Java."
+
+- title: Shub
+  link: "https://github.com/scrapinghub/shub/commits?author=stummjr"
+  details: "A command line interface to Scrapinghub services."
+
+- title: Parsel
+  link: "https://github.com/scrapy/parsel/commits?author=stummjr"
+  details: "The parsing engine behind Scrapy."
+
+- title: Extruct
+  link: "https://github.com/scrapinghub/extruct/commits?author=stummjr"
+  details: "A metadata parser for web scraping."
+
+- title: Cookiecutter Pypackage
+  link: "https://github.com/audreyr/cookiecutter-pypackage/commits?author=stummjr"
+  details: "A template generator for Python projects."

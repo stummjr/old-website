@@ -1,0 +1,97 @@
+---
+layout: default
+permalink: /
+---
+
+<div class="jumbotron pt-4">
+    <div class="row">
+        <div class="col-3 sidebar">
+            <img class="avatar img-fluid mb-4" src="/static/images/picture.jpg" alt="My picture">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item">
+                    <a href="https://github.com/stummjr">
+                        <i class="fab fa-github fa-4x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://stackoverflow.com/users/1084647/valdir-stumm-junior">
+                        <i class="fab fa-stack-overflow fa-4x"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.quora.com/profile/Valdir-Stumm-Junior">
+                        <i class="fab fa-quora fa-4x"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col-9 main-content">
+            <h1 class="display-4">Valdir Stumm Junior</h1>
+            <hr class="mt-4">
+            <p>
+                I'm Valdir, a Brazilian Software Engineer passionate about software
+                development, Python, best practices and writing.
+            </p>
+            <p>
+                I'm a self-motivated engineer, always looking for opportunities
+                to improve the projects where I'm working on. I believe in the
+                power of collaboration and that's something that I'm always
+                promoting and trying to improve in the teams I take part.
+            </p>
+            <p>
+                My background includes web development with Python and Django,
+                large scale web crawling with Scrapy and years of teaching and
+                mentoring experience.
+            </p>
+
+            <h2 class="mt-4">Experience</h2>
+            {% for role in site.data.experience %}
+            <hr class="mt-2">
+            <div class="row mt-4">
+                <div class="col-sm-10">
+                    <h5>{{ role.title }}</h5>
+                    <h6 class="mt-2 mb-3">{{ role.company }}</h6>
+                    <div class="my-2">
+                        {% for detail_item in role.details %}
+                            <p>{{ detail_item }}</p>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h6>{{ role.time }}</h6>
+                </div>
+            </div>
+            {% endfor %}
+
+            <h2 class="mt-4">Education</h2>
+            <hr class="mt-2">
+            {% for education in site.data.education %}
+            <div class="row mt-4">
+                <div class="col-sm-10">
+                    <h5>{{ education.title }}</h5>
+                    <p class="my-1">{{ education.school }}</p>
+                </div>
+                <div class="col-sm-2">
+                    <h6>{{ education.time }}</h6>
+                </div>
+            </div>
+            {% endfor %}
+
+            <h2 class="mt-4">Open Source Contributions</h2>
+            <hr class="mt-2">
+            {% for contribution in site.data.contributions %}
+            <div class="col-sm-10">
+                <div class="row">
+                    <ul>
+                        <li class="ml-0">
+                            <a href="{{ contribution.link }}">{{ contribution.title }}</a>:
+                            {{ contribution.details }}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

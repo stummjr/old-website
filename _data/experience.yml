@@ -1,0 +1,59 @@
+- title: Crawling Engineer
+  time: 2016 - Now
+  company: Scrapinghub
+  details:
+    - Development of a large scale web crawler, crawling around 1.5k websites
+      daily. The activities included crawler development, CI setup,
+      management of servers, technical seminars.
+    - <strong>Main stack:</strong> Python, Lua, Scrapy, Docker, ScrapyRT, CircleCI, S3 and Scrapy Cloud.
+
+- title: Software Engineer
+  time: 2015 - 2016
+  company: Scrapinghub
+  details:
+    - As a software engineer in the Growth Team, I was responsible for diverse
+      technical tasks, such as maintaining Jekyll-powered websites
+      (<a href="http://scrapy.org">scrapy.org</a> and
+      <a href="http://scrapinghub.com">scrapinghub.com</a>),
+      setting up analytics, systems integration, contributions to Scrapy Cloud
+      (Python & Django).
+
+- title: Technical Trainer
+  time: 2015 - 2017
+  company: Scrapinghub
+  details:
+    - I bootstrapped the technical training program for Scrapinghub, turning it into a
+      profitable product.
+
+    - For that matter, I built and published open and reusable resources, such as
+      <a href="http://learn.scrapinghub.com">the instructional videos portal</a>
+      and <a href="https://github.com/scrapinghub/scrapy-training">Educational material</a>.
+
+    - Besides that, I also helped promoting and educating developers about web
+      scraping via <a href="http://blog.scrapinghub.com/author/valdir-stumm-jr">instructional blog posts</a>,
+      <a href="https://support.scrapinghub.com/support/home">technical articles for our products</a> and
+      talks/workshops in conferences and meetups.
+
+- title: Computer Science Teacher
+  time: 2010 - 2015
+  company: Instituto Federal Catarinense
+  details:
+    - Besides teaching programming with Python and Java, I did several other
+      activities such as development of web applications using Python & Django
+      used by thousands of students, setup and administration of the Moodle Learning
+      Management System and coordination of a graduation course.
+
+- title: Junior Developer
+  time: 2006 - 2008
+  company: Federal University of Santa Maria
+  details:
+    - Worked as a developer for a large scale ERP, used by some of the biggest cities
+      and universities in Brazil.
+    - <strong>Main stack:</strong> Delphi, Python, Plone.
+
+- title: Junior SysAdmin
+  time: 2004 - 2005
+  company: Federal University of Santa Maria
+  details:
+    - Support, maintenance and automation in assorted servers and services.
+    - <strong>Main technologies:</strong> GNU/Linux, iptables, Apache, Sendmail, Bash.
