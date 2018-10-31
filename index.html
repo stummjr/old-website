@@ -45,8 +45,8 @@ permalink: /
             </p>
             <p>
                 I'm a self-motivated engineer, always looking for opportunities
-                to improve the projects where I'm working on. I believe in the
-                power of collaboration and that's something that I'm always
+                to improve the projects I'm working on. I believe in
+                collaboration and that's something that I'm always
                 promoting and trying to improve in the teams I take part.
             </p>
             <p>
@@ -84,6 +84,21 @@ permalink: /
                 </div>
                 <div class="col-sm-2">
                     <h6>{{ education.time }}</h6>
+                </div>
+            </div>
+            {% endfor %}
+
+            <h2 class="mt-4">Projects</h2>
+            <hr class="mt-2">
+            {% for project in site.data.projects %}
+            <div class="col-sm-10">
+                <div class="row">
+                    <ul>
+                        <li class="ml-0">
+                            <a href="{{ project.link }}">{{ project.title }}</a>:
+                            {{ project.details }}
+                        </li>
+                    </ul>
                 </div>
             </div>
             {% endfor %}

@@ -1,0 +1,15 @@
+- title: flake8-scrapy
+  link: "https://github.com/stummjr/flake8-scrapy"
+  details: "A Flake8 plugin to catch common issues in Scrapy spiders."
+
+- title: scrapy-fieldstats
+  link: "https://github.com/stummjr/scrapy-fieldstats"
+  details: "A Scrapy extension to generate summaries of the scraped fields."
+
+- title: Python Help
+  link: "https://pythonhelp.wordpress.com"
+  details: "A blog where I write about Python, in Portuguese."
+
+- title: DunderDoc
+  link: "https://dunderdoc.wordpress.com"
+  details: "Another blog where I write about Python, but in English."

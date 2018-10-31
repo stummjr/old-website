@@ -2,10 +2,15 @@
   time: 2016 - Now
   company: Scrapinghub
   details:
-    - Development of a large scale web crawler, crawling around 1.5k websites
+    - Development of large scale web crawlers, crawling around 1.5k websites
       daily. The activities included crawler development, CI setup,
-      management of servers, technical seminars.
-    - <strong>Main stack:</strong> Python, Lua, Scrapy, Docker, ScrapyRT, CircleCI, S3 and Scrapy Cloud.
+      management of servers, technical seminars, mentoring.
+
+    - Experience working in a team of 15 developers spread all around the world
+      and also as a solo developer responsible for handling a project for an
+      important client.
+
+    - <strong>Main stack:</strong> Python, Lua, Scrapy, Pandas, Docker, ScrapyRT, CircleCI, S3 and Scrapy Cloud.
 
 - title: Software Engineer
   time: 2015 - 2016
