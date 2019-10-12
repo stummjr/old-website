@@ -1,5 +1,12 @@
+- title: Lead Software Engineer
+  time: 2018 - Now
+  company: BriteCore
+  details:
+    - Leading a full stack team responsible for developing services for a web based insurance platform.
+    - <strong>Main technologies:</strong> Vue.js, Django, Django REST Framework and several AWS services.
+
 - title: Senior Crawling Engineer
-  time: 2016 - Now
+  time: 2016 - 2018
   company: Scrapinghub
   details:
     - Development of large scale web crawlers, crawling around 1.5k websites
@@ -10,7 +17,7 @@
       and also as a solo developer responsible for handling a project for an
       important client.
 
-    - <strong>Main stack:</strong> Python, Lua, Scrapy, Pandas, Docker, ScrapyRT, CircleCI, S3 and Scrapy Cloud.
+    - <strong>Main technologies:</strong> Python, Lua, Scrapy, Pandas, Docker, ScrapyRT, CircleCI, S3 and Scrapy Cloud.
 
 - title: Software Engineer
   time: 2015 - 2016
