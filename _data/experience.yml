@@ -1,6 +1,7 @@
 - title: Lead Software Engineer
   time: 2018 - Now
   company: BriteCore
+  website: https://www.britecore.com
   details:
     - Leading a full stack team responsible for developing services for a web based insurance platform.
     - <strong>Main technologies:</strong> Vue.js, Django, Django REST Framework and several AWS services.
@@ -8,6 +9,7 @@
 - title: Senior Crawling Engineer
   time: 2016 - 2018
   company: Scrapinghub
+  website: https://scrapinghub.com
   details:
     - Development of large scale web crawlers, crawling around 1.5k websites
       daily. The activities included crawler development, CI setup,
@@ -22,6 +24,7 @@
 - title: Software Engineer
   time: 2015 - 2016
   company: Scrapinghub
+  website: https://scrapinghub.com
   details:
     - As a software engineer in the Growth Team, I was responsible for diverse
       technical tasks, such as maintaining Jekyll-powered websites
@@ -33,6 +36,7 @@
 - title: Technical Trainer
   time: 2015 - 2017
   company: Scrapinghub
+  website: https://scrapinghub.com
   details:
     - I bootstrapped the technical training program for Scrapinghub, turning it into a
       profitable product.
@@ -49,6 +53,7 @@
 - title: Computer Science Teacher
   time: 2010 - 2015
   company: Instituto Federal Catarinense
+  website: https://www.ifc.edu.br/
   details:
     - Besides teaching programming with Python and Java, I did several other
       activities such as development of web applications using Python & Django
@@ -58,6 +63,7 @@
 - title: Junior Developer
   time: 2006 - 2008
   company: Federal University of Santa Maria
+  website: https://www.ufsm.br
   details:
     - Worked as a developer for a large scale ERP, used by some of the biggest cities
       and universities in Brazil.
@@ -66,6 +72,7 @@
 - title: Junior SysAdmin
   time: 2004 - 2005
   company: Federal University of Santa Maria
+  website: https://www.ufsm.br
   details:
     - Support, maintenance and automation in assorted servers and services.
     - <strong>Main technologies:</strong> GNU/Linux, iptables, Apache, Sendmail, Bash.
